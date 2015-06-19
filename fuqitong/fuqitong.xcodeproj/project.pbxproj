@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3240DA81B33C3B100BA5A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3240DA71B33C3B100BA5A4B /* AppDelegate.swift */; };
+		E3240DAA1B33C3B100BA5A4B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3240DA91B33C3B100BA5A4B /* FirstViewController.swift */; };
+		E3240DAC1B33C3B100BA5A4B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3240DAB1B33C3B100BA5A4B /* SecondViewController.swift */; };
+		E3240DAF1B33C3B100BA5A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3240DAD1B33C3B100BA5A4B /* Main.storyboard */; };
+		E3240DB11B33C3B100BA5A4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3240DB01B33C3B100BA5A4B /* Images.xcassets */; };
+		E3240DB41B33C3B100BA5A4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3240DB21B33C3B100BA5A4B /* LaunchScreen.xib */; };
+		E3240DC01B33C3B100BA5A4B /* fuqitongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3240DBF1B33C3B100BA5A4B /* fuqitongTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3240DBA1B33C3B100BA5A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3240D9A1B33C3B100BA5A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3240DA11B33C3B100BA5A4B;
+			remoteInfo = fuqitong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3240DA21B33C3B100BA5A4B /* fuqitong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fuqitong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3240DA61B33C3B100BA5A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3240DA71B33C3B100BA5A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3240DA91B33C3B100BA5A4B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E3240DAB1B33C3B100BA5A4B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E3240DAE1B33C3B100BA5A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3240DB01B33C3B100BA5A4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E3240DB31B33C3B100BA5A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E3240DB91B33C3B100BA5A4B /* fuqitongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fuqitongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3240DBE1B33C3B100BA5A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3240DBF1B33C3B100BA5A4B /* fuqitongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fuqitongTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3240D9F1B33C3B100BA5A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3240DB61B33C3B100BA5A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3240D991B33C3B100BA5A4B = {
+			isa = PBXGroup;
+			children = (
+				E3240DA41B33C3B100BA5A4B /* fuqitong */,
+				E3240DBC1B33C3B100BA5A4B /* fuqitongTests */,
+				E3240DA31B33C3B100BA5A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3240DA31B33C3B100BA5A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3240DA21B33C3B100BA5A4B /* fuqitong.app */,
+				E3240DB91B33C3B100BA5A4B /* fuqitongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3240DA41B33C3B100BA5A4B /* fuqitong */ = {
+			isa = PBXGroup;
+			children = (
+				E3240DA71B33C3B100BA5A4B /* AppDelegate.swift */,
+				E3240DA91B33C3B100BA5A4B /* FirstViewController.swift */,
+				E3240DAB1B33C3B100BA5A4B /* SecondViewController.swift */,
+				E3240DAD1B33C3B100BA5A4B /* Main.storyboard */,
+				E3240DB01B33C3B100BA5A4B /* Images.xcassets */,
+				E3240DB21B33C3B100BA5A4B /* LaunchScreen.xib */,
+				E3240DA51B33C3B100BA5A4B /* Supporting Files */,
+			);
+			path = fuqitong;
+			sourceTree = "<group>";
+		};
+		E3240DA51B33C3B100BA5A4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3240DA61B33C3B100BA5A4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3240DBC1B33C3B100BA5A4B /* fuqitongTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3240DBF1B33C3B100BA5A4B /* fuqitongTests.swift */,
+				E3240DBD1B33C3B100BA5A4B /* Supporting Files */,
+			);
+			path = fuqitongTests;
+			sourceTree = "<group>";
+		};
+		E3240DBD1B33C3B100BA5A4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3240DBE1B33C3B100BA5A4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3240DA11B33C3B100BA5A4B /* fuqitong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3240DC31B33C3B100BA5A4B /* Build configuration list for PBXNativeTarget "fuqitong" */;
+			buildPhases = (
+				E3240D9E1B33C3B100BA5A4B /* Sources */,
+				E3240D9F1B33C3B100BA5A4B /* Frameworks */,
+				E3240DA01B33C3B100BA5A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fuqitong;
+			productName = fuqitong;
+			productReference = E3240DA21B33C3B100BA5A4B /* fuqitong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3240DB81B33C3B100BA5A4B /* fuqitongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3240DC61B33C3B100BA5A4B /* Build configuration list for PBXNativeTarget "fuqitongTests" */;
+			buildPhases = (
+				E3240DB51B33C3B100BA5A4B /* Sources */,
+				E3240DB61B33C3B100BA5A4B /* Frameworks */,
+				E3240DB71B33C3B100BA5A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3240DBB1B33C3B100BA5A4B /* PBXTargetDependency */,
+			);
+			name = fuqitongTests;
+			productName = fuqitongTests;
+			productReference = E3240DB91B33C3B100BA5A4B /* fuqitongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3240D9A1B33C3B100BA5A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiangchuang;
+				TargetAttributes = {
+					E3240DA11B33C3B100BA5A4B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E3240DB81B33C3B100BA5A4B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E3240DA11B33C3B100BA5A4B;
+					};
+				};
+			};
+			buildConfigurationList = E3240D9D1B33C3B100BA5A4B /* Build configuration list for PBXProject "fuqitong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3240D991B33C3B100BA5A4B;
+			productRefGroup = E3240DA31B33C3B100BA5A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3240DA11B33C3B100BA5A4B /* fuqitong */,
+				E3240DB81B33C3B100BA5A4B /* fuqitongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3240DA01B33C3B100BA5A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3240DAF1B33C3B100BA5A4B /* Main.storyboard in Resources */,
+				E3240DB41B33C3B100BA5A4B /* LaunchScreen.xib in Resources */,
+				E3240DB11B33C3B100BA5A4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3240DB71B33C3B100BA5A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3240D9E1B33C3B100BA5A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3240DAC1B33C3B100BA5A4B /* SecondViewController.swift in Sources */,
+				E3240DA81B33C3B100BA5A4B /* AppDelegate.swift in Sources */,
+				E3240DAA1B33C3B100BA5A4B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3240DB51B33C3B100BA5A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3240DC01B33C3B100BA5A4B /* fuqitongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3240DBB1B33C3B100BA5A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3240DA11B33C3B100BA5A4B /* fuqitong */;
+			targetProxy = E3240DBA1B33C3B100BA5A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3240DAD1B33C3B100BA5A4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3240DAE1B33C3B100BA5A4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3240DB21B33C3B100BA5A4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3240DB31B33C3B100BA5A4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3240DC11B33C3B100BA5A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3240DC21B33C3B100BA5A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3240DC41B33C3B100BA5A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fuqitong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3240DC51B33C3B100BA5A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fuqitong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E3240DC71B33C3B100BA5A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fuqitongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fuqitong.app/fuqitong";
+			};
+			name = Debug;
+		};
+		E3240DC81B33C3B100BA5A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fuqitongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fuqitong.app/fuqitong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3240D9D1B33C3B100BA5A4B /* Build configuration list for PBXProject "fuqitong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3240DC11B33C3B100BA5A4B /* Debug */,
+				E3240DC21B33C3B100BA5A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3240DC31B33C3B100BA5A4B /* Build configuration list for PBXNativeTarget "fuqitong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3240DC41B33C3B100BA5A4B /* Debug */,
+				E3240DC51B33C3B100BA5A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3240DC61B33C3B100BA5A4B /* Build configuration list for PBXNativeTarget "fuqitongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3240DC71B33C3B100BA5A4B /* Debug */,
+				E3240DC81B33C3B100BA5A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3240D9A1B33C3B100BA5A4B /* Project object */;
+}
