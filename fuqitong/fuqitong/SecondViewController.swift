@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  fuqitong
 //
-//  Created by 志远 何 on 15/6/19.
+//  Created by heliang on 15/6/19.
 //  Copyright (c) 2015年 xiangchuang. All rights reserved.
 //
 
